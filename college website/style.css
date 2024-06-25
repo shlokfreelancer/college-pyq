@@ -1,0 +1,63 @@
+/* Custom CSS for color scheme and styling */
+
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #1c1818; /* Dark text color */
+    font-family: Arial, sans-serif; /* Default font family */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000; /* Blue heading color */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White text color for navigation links */
+}
+
+.bg-primary {
+    background-color: #e4effb !important; /* Blue background for primary elements */
+}
+
+.text-primary {
+    color: #007bff !important; /* Blue text color */
+}
+
+.bg-light {
+    background-color: #fff !important; /* White background for light elements */
+}
+
+.text-light {
+    color: #fff !important; /* White text color */
+}
+
+.card {
+    background-color: #b5a0e7; /* Blue background for cards */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    transition: transform 0.3s ease; /* Smooth scaling effect on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale card on hover */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Larger font size for card titles */
+    font-weight: bold; /* Bold font weight for emphasis */
+}
+
+.card-body {
+    padding: 20px; /* Padding inside card body */
+}
+
+.btn-primary {
+    background-color: #fff; /* White background for primary buttons */
+    color: #007bff; /* Blue text color for primary buttons */
+    border-color: #007bff; /* Blue border color for primary buttons */
+}
+
+.btn-primary:hover {
+    color: #fff; /* White text color on button hover */
+    background-color: #d2dde8; /* Darker blue background on button hover */
+    border-color: #06172a; /* Darker blue border color on button hover */
+}
